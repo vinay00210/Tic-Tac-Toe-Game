@@ -1,3 +1,6 @@
+// this is a enhances javascript code to make game betterby adding some features: refer this javascript file..
+
+
 let boxes = document.querySelectorAll(".box");
 let reset = document.querySelector("#reset");
 
