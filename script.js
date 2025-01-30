@@ -99,6 +99,7 @@ let boxdisable = () => {
 let reset = () => {
     document.querySelector(".congratz").classList.add("hide");
     chance = true;
+    count=0;
     boxes.forEach((box) => {
         box.innerHTML = "";
         box.disabled = false;
