@@ -1,3 +1,6 @@
+// PLease prefer myscript.js file. this will also work but some features are missing in this code. i have added some new features in myscript.js code file.
+
+
 let boxes = document.querySelectorAll(".box");//stores all buttons in a array 
 let resetbtn = document.querySelector("#reset");
 // console.log(boxes);
