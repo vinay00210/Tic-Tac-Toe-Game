@@ -92,6 +92,7 @@ let boxdisable = () => {
 let resetfunc = () => {
     document.querySelector(".congratz").classList.add("hide");
     turn = true;
+    count=0;
     boxes.forEach((box) => {
         box.disabled = false;
         box.innerText = "";
